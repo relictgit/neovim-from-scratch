@@ -20,6 +20,8 @@ vim.g.maplocalleader = " "
 
 -- Normal --
 -- Better window navigation
+-- the keymap function contains the following parameters
+-- keymap(<mode>, <mapp-string-key>, <mapp-string-TO>, options)
 keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
