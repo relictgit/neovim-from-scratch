@@ -1,5 +1,10 @@
 local servers = {
 	"sumneko_lua",
+    "bash-language-server",
+    "clang-format",
+    "clangd",
+    "jedi-language-server",
+    "lua-language-server"
 }
 
 local settings = {
