@@ -20,3 +20,7 @@ LSP: lspconfig & mason-lspconfig.neovim
 DAP: `nvim-dap`
 Linters: `null-ls.nvim` or `nvim-lint`
 Formatters: `null-ls.nvim` or `formatter.nvim`
+# So it is easy to add a lsp server
+# Yust put it into the mason.lua file in the location of the "local servers" and they will be installed
+# HINT: the names of the language servers must have the naming scheme of the nvim-lspconfig
+# (see server_configurations.md from the installed plugin "neovim/nvim-lspconfig", "williamboman/mason-lspconfig.nvim")
