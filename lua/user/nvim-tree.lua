@@ -50,10 +50,10 @@ nvim_tree.setup {
   },
   view = {
     width = 30,
-    height = 30,
+    -- height = 30,   -- unknown for some reason after startup
     hide_root_folder = false,
     side = "left",
-    auto_resize = true,
+    -- auto_resize = true,    -- unknown for some reason after startup
     mappings = {
       custom_only = false,
       list = {
@@ -66,8 +66,8 @@ nvim_tree.setup {
     relativenumber = false,
   },
   actions = {
-    quit_on_open = true,
-    window_picker = { enable = true },
+    -- quit_on_open = true,    -- unknown afer startup
+    -- window_picker = { enable = true }, -- unknown after startup
   },
   renderer = {
     highlight_git = true,
