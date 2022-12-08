@@ -31,6 +31,11 @@ end
 
 -- Have packer use a popup window
 packer.init {
+  git = {
+    cmd = 'git', -- The base command for git operations
+    depth = 1, -- Git clone depth
+    clone_timeout = 600, -- Timeout, in seconds, for git clones
+  },
   display = {
     open_fn = function()
       return require("packer.util").float { border = "rounded" }
@@ -56,6 +61,7 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-path" -- path completions
   use "hrsh7th/cmp-cmdline" -- cmdline completions
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
+  
   -- LSP completions
   use "hrsh7th/cmp-nvim-lsp"
   use "hrsh7th/cmp-nvim-lua"
