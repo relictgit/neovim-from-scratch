@@ -1,3 +1,5 @@
+-- see list of supported servers in server_configurations.md
+
 local servers = {
 	"sumneko_lua",
     "rust_analyzer",
