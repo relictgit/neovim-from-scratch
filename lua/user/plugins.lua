@@ -77,7 +77,7 @@ return packer.startup(function(use)
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"
-  use 'nvim-telescope/telescope-media-files.nvim'
+  use "nvim-telescope/telescope-media-files.nvim"
 
   -- Treesitter
   use {
@@ -92,16 +92,21 @@ return packer.startup(function(use)
 
   -- comment plugins
   use "numToStr/Comment.nvim" -- Easily comment stuff
-  use 'JoosepAlviste/nvim-ts-context-commentstring' -- comment strings based on the file type context
+  use "JoosepAlviste/nvim-ts-context-commentstring" -- comment strings based on the file type context
 
   -- Git
   use "lewis6991/gitsigns.nvim"
 
   -- nvim-tree
-  use 'kyazdani42/nvim-tree.lua'
+  use "kyazdani42/nvim-tree.lua"
 
   -- rust specific plugins --- see this guide for info: https://rsdlt.github.io/posts/rust-nvim-ide-guide-walkthrough-development-debug/
-  use 'simrat39/rust-tools.nvim'
+  use "simrat39/rust-tools.nvim"
+
+  -- bufferline
+  use "kyazdani42/nvim-web-devicons"
+  use "akinsho/bufferline.nvim"
+  use "moll/vim-bbye"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
