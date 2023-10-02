@@ -1,11 +1,11 @@
 -- see list of supported servers in server_configurations.md
 
 local servers = {
-	"sumneko_lua",
-    "rust_analyzer",
-    "clangd",
-    "bashls",
-    "jedi_language_server",
+	"lua_ls",
+	"rust_analyzer",
+	"clangd",
+	"bashls",
+	"jedi_language_server",
 }
 
 local settings = {
