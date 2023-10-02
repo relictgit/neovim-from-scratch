@@ -2,9 +2,10 @@ local configs = require("nvim-treesitter.configs")
 configs.setup {
   ensure_installed = "all", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
   -- Install parsers synchronously (only applied to `ensure_installed`)
-  sync_install = false
--- [[  sync_install = true, ]]
+  --  sync_install = false
+  -- [[  sync_install = true, ]]
   ignore_install = { "" }, -- List of parsers to ignore installing
+  sync_install = false,    -- install languages synchronously (only applied to `ensure_installed`)
   autopairs = {
     enable = true,
   },
