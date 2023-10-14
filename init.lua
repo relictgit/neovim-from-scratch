@@ -5,7 +5,7 @@ require "user.colorscheme"
 require "user.completion"
 require "user.lsp"
 require "user.telescope"
-require ("user.treesitter").prefer_git = true
+require "user.treesitter"
 require "user.autoformat"
 require "user.autopairs"
 require "user.comments"
