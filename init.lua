@@ -11,4 +11,5 @@ require "user.autopairs"
 require "user.comments"
 require "user.gitsigns"
 require "user.nvim-tree"
+require 'nvim-tree'.setup {} -- https://github.com/nvim-tree/nvim-tree.lua/issues/767
 require "user.bufferline"
