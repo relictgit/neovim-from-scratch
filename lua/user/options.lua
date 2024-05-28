@@ -28,7 +28,8 @@ vim.opt.cursorline = true                       -- highlight the current cursorl
 vim.opt.number = true                           -- set number lines
 vim.opt.relativenumber = false                  -- set relative numberd lines
 vim.opt.numberwidth = 4                         -- set number colunm width to 2 {default is 4}
-vim.opt.signcolumn = "yes"                      -- always show the sign column, otherwise it would shift the text each time
+vim.opt.signcolumn =
+"yes"                                           -- always show the sign column, otherwise it would shift the text each time
 vim.opt.wrap = false                            -- display lines as long one line
 vim.opt.scrolloff = 5                           -- scroll after n numbers of lines bevore EOF
 vim.opt.sidescrolloff = 5
