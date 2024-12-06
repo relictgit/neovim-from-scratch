@@ -6,7 +6,7 @@ configs.setup({
 	--  sync_install = false
 	-- [[  sync_install = true, ]]
 	ignore_install = { "" }, -- List of parsers to ignore installing
-	sync_install = true, -- install languages synchronously (only applied to `ensure_installed`)
+	sync_install = false, -- install languages synchronously (only applied to `ensure_installed`)
 	autopairs = {
 		enable = true,
 	},

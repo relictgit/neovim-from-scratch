@@ -2,7 +2,7 @@
 
 local servers = {
 	"lua_ls",
-	"rust_analyzer",
+	--[[ "rust_analyzer", rust analyzer is already installed via use flag from gentoo package ]]
 	"clangd",
 	"bashls",
 	"jedi_language_server",

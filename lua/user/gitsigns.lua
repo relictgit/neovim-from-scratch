@@ -52,3 +52,5 @@ gitsigns.setup({
 	--[[ 	enable = false, ]]
 	--[[ }, ]]
 })
+
+-- end of file
